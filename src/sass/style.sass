@@ -1,13 +1,14 @@
-@import "variables"
-@import "mixins"
-@import "promo"
-@import "header"
-@import "profit"
 *
     margin: 0
     padding: 0
     box-sizing: border-box
     font-family: 'Museo Sans Cyrl', sans-serif
+@import "variables"
+@import "mixins"
+@import "promo"
+@import "header"
+@import "profit"
+@import "consultation"
 .container
     max-width: 940px
     margin: 0 auto
@@ -28,9 +29,30 @@
     width: 300px
     height: 50px
     font-size: 16px
+.button_form
+    margin-top: 5px
+    width: 300px
+    height: 55px
+    font-size: 16px
+    font-weight: 500
 .right
     display: flex
     flex-direction: column
     align-items: flex-end
-
+.feedform
+    margin-top: 36px
+    display: flex
+    flex-direction: column
+    width: 300px
+    input
+        margin-bottom: 15px
+        height: 50px
+        border-radius: 5px
+        background-color: #ffffff
+        padding: 20px
+        color: #4b4b4b
+        font-size: 14px
+        font-weight: 300
+        border: none
+        outline: none
 @import "media"
